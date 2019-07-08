@@ -1,4 +1,8 @@
 // 8. feladat
+let readline = require('readline-sync');
+console.log('Kérlek adj meg két számot.');
+let a = readline.keyIn();
+let b = readline.keyIn();
 
 const generate2d = (n, m) => {
   let arr = new Array(n);
@@ -19,6 +23,6 @@ const fill2d = (arr) => {
 };
 
 let arr = [];
-arr = generate2d(5, 5);
+arr = generate2d(Number(a), Number(b));
 fill2d(arr);
 console.log(arr);

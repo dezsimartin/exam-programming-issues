@@ -1,0 +1,22 @@
+{
+  "name": "exam-programming-issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array2d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dezsimartin/exam-programming-issues.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dezsimartin/exam-programming-issues/issues"
+  },
+  "homepage": "https://github.com/dezsimartin/exam-programming-issues#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}

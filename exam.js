@@ -62,3 +62,23 @@ const switchFgv = (a) => {
 switchFgv(5);
 
 // 6. feladat metszet tétele
+
+const intersection = (arr1, arr2) => {
+  let temparr = [];
+  let n = 0;
+  let c = 0;
+  while (n < arr2.length) {
+    for (let i = 0; i < arr1.length; i++) {
+      if (arr1[i] === arr2[n]) {
+        temparr[c] = arr2[n];
+        c++;
+      }
+    }
+    n++;
+  }
+  console.log(temparr);
+};
+
+let t1 = [1, 2, 2, 3, 4, 5, 6];
+let t2 = [2, 5, 10, 9, 8, 7, 10];
+intersection(t1, t2);
